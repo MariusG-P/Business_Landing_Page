@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Soap Store</title>
+
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/contactPage.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="title_container">
+        <h1 class="title">The Soap Store</h1>
+      </div>
+
+      <!-- navigation -->
+      <nav class="navigation">
+        <ul class="list">
+          <li><a href="../index.html" class="button">Home</a></li>
+          <li><a href="#shop" class="button">Shop</a></li>
+          <li><a href="#about" class="button">About</a></li>
+          <li>
+            <a href="./page/contact.html" target="_blank" class="button"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main_container">
+      <section class="section_container">
+        <form action="" class="form_container">
+          <div class="form_title-container">
+            <h2 class="form_title">Contact Us</h2>
+          </div>
+
+          <div class="form">
+            <div class="form_cell">
+              <label for="form_name" class="form_label">Name</label>
+              <input
+                type="text"
+                id="form_name"
+                name="form_name"
+                maxlength="20"
+                placeholder="Piers"
+                alt="Input field for name"
+                class="form_input"
+              />
+            </div>
+
+            <div class="form_cell">
+              <label for="form_surname" class="form_label">Surname</label>
+              <input
+                type="text"
+                id="form_surname"
+                name="form_surname"
+                maxlength="20"
+                placeholder="Morrison"
+                alt="Input field for surname"
+                class="form_input"
+              />
+            </div>
+
+            <div class="form_cell">
+              <label for="form_email" class="form_label">E-Mail</label>
+              <input
+                type="email"
+                id="form_email"
+                name="form_email"
+                placeholder="piers.morrison@example.com"
+                alt="Input field for E-Mail"
+                class="form_input"
+              />
+            </div>
+
+            <div class="form_cell">
+              <label for="form_phone" class="form_label">Phone</label>
+              <input
+                type="tel"
+                id="form_phone"
+                name="form_phone"
+                maxlength="15"
+                placeholder="+1 3052057207"
+                alt="Input field for Phone number"
+                class="form_input"
+              />
+            </div>
+          </div>
+
+          <label for="form_text" class="form_label">Your message</label>
+          <textarea
+            id="form_text"
+            name="form_text"
+            rows="10"
+            cols="50"
+            class="form_text"
+          ></textarea>
+
+          <input
+            type="button"
+            value="Send"
+            alt="Send message button"
+            class="form_button"
+          />
+        </form>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <nav class="navigation footer_navigation">
+        <ul class="list">
+          <li><a href="#" class="button">Home</a></li>
+          <li><a href="#shop" class="button">Shop</a></li>
+          <li><a href="#about" class="button">About</a></li>
+          <li>
+            <a href="./page/contact.html" target="_blank" class="button"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="footer_cell">
+        <p class="footer_para">&copy; The Soap Store | 2025</p>
+      </div>
+    </footer>
+  </body>
+</html>
